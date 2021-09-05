@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C872E4F26E535FF00398DCC /* NewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C872E4E26E535FF00398DCC /* NewList.swift */; };
+		3C872E5126E5652A00398DCC /* FirestoreDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C872E5026E5652A00398DCC /* FirestoreDB.swift */; };
 		3C8EF45926D55C42004EA2B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF45826D55C42004EA2B6 /* AppDelegate.swift */; };
 		3C8EF45B26D55C42004EA2B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF45A26D55C42004EA2B6 /* SceneDelegate.swift */; };
 		3C8EF45D26D55C42004EA2B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF45C26D55C42004EA2B6 /* ViewController.swift */; };
@@ -15,6 +17,13 @@
 		3C8EF46526D55C44004EA2B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8EF46326D55C44004EA2B6 /* LaunchScreen.storyboard */; };
 		3C8EF47026D55C44004EA2B6 /* fierbase_ammTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF46F26D55C44004EA2B6 /* fierbase_ammTests.swift */; };
 		3C8EF47B26D55C45004EA2B6 /* fierbase_ammUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF47A26D55C45004EA2B6 /* fierbase_ammUITests.swift */; };
+		3C8EF48B26D56219004EA2B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C8EF48A26D56219004EA2B6 /* GoogleService-Info.plist */; };
+		3C8EF48D26D56864004EA2B6 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF48C26D56864004EA2B6 /* Analytics.swift */; };
+		3C8EF49026D57EE3004EA2B6 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF48F26D57EE3004EA2B6 /* DataBase.swift */; };
+		3C8EF49226D58725004EA2B6 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EF49126D58725004EA2B6 /* Document.swift */; };
+		76E097597934692A81837FE2 /* Pods_fierbase_ammTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C5CB917C85F1E08D692980 /* Pods_fierbase_ammTests.framework */; };
+		DA381AE24DB3B03F93204750 /* Pods_fierbase_amm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E836BA04E63C397D8C50F7 /* Pods_fierbase_amm.framework */; };
+		E85015720383CABFA11CB136 /* Pods_fierbase_amm_fierbase_ammUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA8C245BB8E777CC8D97926 /* Pods_fierbase_amm_fierbase_ammUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C5CB917C85F1E08D692980 /* Pods_fierbase_ammTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fierbase_ammTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E836BA04E63C397D8C50F7 /* Pods_fierbase_amm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fierbase_amm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EA1357E25C2AA7C426FE94 /* Pods-fierbase-amm-fierbase-ammUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-amm-fierbase-ammUITests.debug.xcconfig"; path = "Target Support Files/Pods-fierbase-amm-fierbase-ammUITests/Pods-fierbase-amm-fierbase-ammUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C872E4E26E535FF00398DCC /* NewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewList.swift; sourceTree = "<group>"; };
+		3C872E5026E5652A00398DCC /* FirestoreDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDB.swift; sourceTree = "<group>"; };
 		3C8EF45526D55C42004EA2B6 /* fierbase-amm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fierbase-amm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8EF45826D55C42004EA2B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8EF45A26D55C42004EA2B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 		3C8EF47626D55C45004EA2B6 /* fierbase-ammUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fierbase-ammUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8EF47A26D55C45004EA2B6 /* fierbase_ammUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fierbase_ammUITests.swift; sourceTree = "<group>"; };
 		3C8EF47C26D55C45004EA2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8EF48A26D56219004EA2B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C8EF48C26D56864004EA2B6 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		3C8EF48F26D57EE3004EA2B6 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		3C8EF49126D58725004EA2B6 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		6F65F9E9581760F86A621CFB /* Pods-fierbase-amm-fierbase-ammUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-amm-fierbase-ammUITests.release.xcconfig"; path = "Target Support Files/Pods-fierbase-amm-fierbase-ammUITests/Pods-fierbase-amm-fierbase-ammUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91353D7E857F3DBCD686275E /* Pods-fierbase-amm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-amm.release.xcconfig"; path = "Target Support Files/Pods-fierbase-amm/Pods-fierbase-amm.release.xcconfig"; sourceTree = "<group>"; };
+		A8BDE8DE6174E44C4A2992B7 /* Pods-fierbase-ammTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-ammTests.debug.xcconfig"; path = "Target Support Files/Pods-fierbase-ammTests/Pods-fierbase-ammTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6E1F0EC3F40F87FCFF02C7 /* Pods-fierbase-amm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-amm.debug.xcconfig"; path = "Target Support Files/Pods-fierbase-amm/Pods-fierbase-amm.debug.xcconfig"; sourceTree = "<group>"; };
+		DBA8C245BB8E777CC8D97926 /* Pods_fierbase_amm_fierbase_ammUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fierbase_amm_fierbase_ammUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B1ACFE92AB7F0221DF9537 /* Pods-fierbase-ammTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fierbase-ammTests.release.xcconfig"; path = "Target Support Files/Pods-fierbase-ammTests/Pods-fierbase-ammTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA381AE24DB3B03F93204750 /* Pods_fierbase_amm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E097597934692A81837FE2 /* Pods_fierbase_ammTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85015720383CABFA11CB136 /* Pods_fierbase_amm_fierbase_ammUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11C9FDB70E6D677E7D7C9388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E836BA04E63C397D8C50F7 /* Pods_fierbase_amm.framework */,
+				DBA8C245BB8E777CC8D97926 /* Pods_fierbase_amm_fierbase_ammUITests.framework */,
+				18C5CB917C85F1E08D692980 /* Pods_fierbase_ammTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C8EF44C26D55C42004EA2B6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				3C8EF46E26D55C44004EA2B6 /* fierbase-ammTests */,
 				3C8EF47926D55C45004EA2B6 /* fierbase-ammUITests */,
 				3C8EF45626D55C42004EA2B6 /* Products */,
+				3E991E8B7A24346CC796FFA6 /* Pods */,
+				11C9FDB70E6D677E7D7C9388 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,7 @@
 		3C8EF45726D55C42004EA2B6 /* fierbase-amm */ = {
 			isa = PBXGroup;
 			children = (
+				3C8EF48A26D56219004EA2B6 /* GoogleService-Info.plist */,
 				3C8EF45826D55C42004EA2B6 /* AppDelegate.swift */,
 				3C8EF45A26D55C42004EA2B6 /* SceneDelegate.swift */,
 				3C8EF45C26D55C42004EA2B6 /* ViewController.swift */,
@@ -106,6 +146,11 @@
 				3C8EF46126D55C44004EA2B6 /* Assets.xcassets */,
 				3C8EF46326D55C44004EA2B6 /* LaunchScreen.storyboard */,
 				3C8EF46626D55C44004EA2B6 /* Info.plist */,
+				3C8EF48C26D56864004EA2B6 /* Analytics.swift */,
+				3C8EF48F26D57EE3004EA2B6 /* DataBase.swift */,
+				3C8EF49126D58725004EA2B6 /* Document.swift */,
+				3C872E4E26E535FF00398DCC /* NewList.swift */,
+				3C872E5026E5652A00398DCC /* FirestoreDB.swift */,
 			);
 			path = "fierbase-amm";
 			sourceTree = "<group>";
@@ -128,6 +173,19 @@
 			path = "fierbase-ammUITests";
 			sourceTree = "<group>";
 		};
+		3E991E8B7A24346CC796FFA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E1F0EC3F40F87FCFF02C7 /* Pods-fierbase-amm.debug.xcconfig */,
+				91353D7E857F3DBCD686275E /* Pods-fierbase-amm.release.xcconfig */,
+				32EA1357E25C2AA7C426FE94 /* Pods-fierbase-amm-fierbase-ammUITests.debug.xcconfig */,
+				6F65F9E9581760F86A621CFB /* Pods-fierbase-amm-fierbase-ammUITests.release.xcconfig */,
+				A8BDE8DE6174E44C4A2992B7 /* Pods-fierbase-ammTests.debug.xcconfig */,
+				F3B1ACFE92AB7F0221DF9537 /* Pods-fierbase-ammTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8EF47F26D55C45004EA2B6 /* Build configuration list for PBXNativeTarget "fierbase-amm" */;
 			buildPhases = (
+				642E6DA351CC4D07DAABD9D8 /* [CP] Check Pods Manifest.lock */,
 				3C8EF45126D55C42004EA2B6 /* Sources */,
 				3C8EF45226D55C42004EA2B6 /* Frameworks */,
 				3C8EF45326D55C42004EA2B6 /* Resources */,
+				B6D8F2C0DCA84B16B6FD9C18 /* [CP] Embed Pods Frameworks */,
+				3C8EF48E26D57878004EA2B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8EF48226D55C45004EA2B6 /* Build configuration list for PBXNativeTarget "fierbase-ammTests" */;
 			buildPhases = (
+				C9342D91AE0E1B50F0CCE6C4 /* [CP] Check Pods Manifest.lock */,
 				3C8EF46726D55C44004EA2B6 /* Sources */,
 				3C8EF46826D55C44004EA2B6 /* Frameworks */,
 				3C8EF46926D55C44004EA2B6 /* Resources */,
@@ -170,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8EF48526D55C45004EA2B6 /* Build configuration list for PBXNativeTarget "fierbase-ammUITests" */;
 			buildPhases = (
+				CB849F9051569A7B630C17C1 /* [CP] Check Pods Manifest.lock */,
 				3C8EF47226D55C45004EA2B6 /* Sources */,
 				3C8EF47326D55C45004EA2B6 /* Frameworks */,
 				3C8EF47426D55C45004EA2B6 /* Resources */,
+				0BE155A3784726017B047E09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8EF46526D55C44004EA2B6 /* LaunchScreen.storyboard in Resources */,
+				3C8EF48B26D56219004EA2B6 /* GoogleService-Info.plist in Resources */,
 				3C8EF46226D55C44004EA2B6 /* Assets.xcassets in Resources */,
 				3C8EF46026D55C42004EA2B6 /* Main.storyboard in Resources */,
 			);
@@ -253,13 +318,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BE155A3784726017B047E09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm-fierbase-ammUITests/Pods-fierbase-amm-fierbase-ammUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm-fierbase-ammUITests/Pods-fierbase-amm-fierbase-ammUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm-fierbase-ammUITests/Pods-fierbase-amm-fierbase-ammUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8EF48E26D57878004EA2B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		642E6DA351CC4D07DAABD9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fierbase-amm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D8F2C0DCA84B16B6FD9C18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm/Pods-fierbase-amm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm/Pods-fierbase-amm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fierbase-amm/Pods-fierbase-amm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9342D91AE0E1B50F0CCE6C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fierbase-ammTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB849F9051569A7B630C17C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fierbase-amm-fierbase-ammUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C8EF45126D55C42004EA2B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8EF49026D57EE3004EA2B6 /* DataBase.swift in Sources */,
+				3C872E4F26E535FF00398DCC /* NewList.swift in Sources */,
 				3C8EF45D26D55C42004EA2B6 /* ViewController.swift in Sources */,
+				3C8EF49226D58725004EA2B6 /* Document.swift in Sources */,
 				3C8EF45926D55C42004EA2B6 /* AppDelegate.swift in Sources */,
+				3C872E5126E5652A00398DCC /* FirestoreDB.swift in Sources */,
+				3C8EF48D26D56864004EA2B6 /* Analytics.swift in Sources */,
 				3C8EF45B26D55C42004EA2B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +625,12 @@
 		};
 		3C8EF48026D55C45004EA2B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6E1F0EC3F40F87FCFF02C7 /* Pods-fierbase-amm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 28HZ8ZX992;
 				INFOPLIST_FILE = "fierbase-amm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,6 +646,7 @@
 		};
 		3C8EF48126D55C45004EA2B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91353D7E857F3DBCD686275E /* Pods-fierbase-amm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +666,7 @@
 		};
 		3C8EF48326D55C45004EA2B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BDE8DE6174E44C4A2992B7 /* Pods-fierbase-ammTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +689,7 @@
 		};
 		3C8EF48426D55C45004EA2B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B1ACFE92AB7F0221DF9537 /* Pods-fierbase-ammTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +712,7 @@
 		};
 		3C8EF48626D55C45004EA2B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EA1357E25C2AA7C426FE94 /* Pods-fierbase-amm-fierbase-ammUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +733,7 @@
 		};
 		3C8EF48726D55C45004EA2B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F65F9E9581760F86A621CFB /* Pods-fierbase-amm-fierbase-ammUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

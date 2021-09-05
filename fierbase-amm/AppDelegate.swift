@@ -6,13 +6,17 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAnalytics
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        Analytics.setUserID("1")
+        Analytics.setUserProperty("red", forName: "first")
         // Override point for customization after application launch.
         return true
     }
